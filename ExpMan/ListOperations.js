@@ -121,8 +121,7 @@ takeIncomeCurMonth(){
                 
         return sum;
 }
-
-//synolika leyta gia thn kathgoria eisodon val
+ 
 takeSumCatIn(val){
         var sum=0;
         var currentDate = new Date();
@@ -133,8 +132,7 @@ takeSumCatIn(val){
                 
         return sum;
 }
-
-//synolika leyta gia thn kathgoria ejodon val
+ 
 takeSumCatOut(val){
         var sum=0;
         var currentDate = new Date();
@@ -172,8 +170,7 @@ takeExpenseToday(){
            sum+=element._amount }});
    return sum;
 }
-
-//synolika leyta gia καθε μηνα
+ 
 takeSumExpPerMonth(mo){
     var sum=0;
     var currentDate = new Date();
@@ -184,8 +181,7 @@ takeSumExpPerMonth(mo){
             
     return sum;
 }
-
-//synolika leyta gia καθε μηνα
+ 
 takeSumInPerMonth(mo){
     var sum=0;
     var currentDate = new Date();
